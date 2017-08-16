@@ -7,9 +7,9 @@ import 'rxjs/add/operator/map';
 export class WeatherService {
     //Observable: emit and subscriber, retorna data solo a los subscritos.
     //best practice: puede ser destruido despues.
-    
+
     weatherObserver: Observable<any>;
-    //API free para clima
+    
     //baseUrl: string = 'https://api.weatherbit.io/v1.0/current/postal?key=74954793a7b34830b8ad6e9d3c43cd56';
     baseUrl: string = 'https://api.weatherbit.io/v1.0/forecast/3hourly/postal?key=74954793a7b34830b8ad6e9d3c43cd56';
 
